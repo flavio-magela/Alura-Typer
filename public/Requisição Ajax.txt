@@ -1,0 +1,31 @@
+1) Ir na pasta servidor para fazer conexão ao Servidor do Ajax;
+Intalação do Node necessário ter o Node.js instalado em sua máquina.
+
+Depois do Node.js ter sido instalado, dentro da pasta do projeto alura-typer que você descompactou anteriormente, 
+você deve encontrar a pasta servidor, navegue até ela e dentro dela execute o comando:
+
+npm start
+
+Repare que seu terminal ficará aguardando indefinidamente, sinal de que o servidor está escutando. 
+Agora é só abrir o navegador no endereço http://localhost:3000/principal.html. A página do seu Alura Typer será exibida!
+
+
+ex.: 
+E:\> cd E:\WWW\Git\local\JQuery\alura-typer-inicial\servidor
+
+E:\WWW\Git\local\JQuery\alura-typer-inicial\servidor>npm start
+
+Espera a conexão até apresentar essa mensagem:
+
+> AluraTyper@1.0.0 start E:\WWW\Git\local\JQuery\alura-typer-inicial\servidor
+> node server
+
+consign v0.1.2 Initialized in app
++ .\api\frases.js
++ .\api\placar.js
++ .\routes\frases.js
++ .\routes\placar.js
+Banco data.db pronto para uso
+Servidor iniciado 
+
+OK - Servidor ativado
